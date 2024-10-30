@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test.only(
+test(
 	'has title @test2',
 	{
 		tag: '@test',
@@ -11,8 +11,7 @@ test.only(
 		// Expect a title "to contain" a substring.
 		await expect(page).toHaveTitle(/Playwright/);
 
-		expect(page.getByRole('link', { name: 'Getting started' }))
-			.toBeDefined;
+		expect(page.getByRole('link', { name: 'Getting started' })).toBeDefined;
 	}
 );
 
