@@ -9,7 +9,7 @@ test(
 		await page.goto('https://playwright.dev/');
 
 		// Expect a title "to contain" a substring.
-		await expect(page).toHaveTitle(/Playwri/);
+		await expect(page).toHaveTitle(/Playwrighttt/);
 
 		expect(page.getByRole('link', { name: 'Getting started' })).toBeDefined;
 	}
