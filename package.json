@@ -1,0 +1,17 @@
+{
+	"name": "pw",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"pw": "playwright test",
+		"test": "npx playwright test --ui"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@playwright/test": "^1.47.2",
+		"@types/node": "^22.7.4"
+	}
+}
